@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laia Lorente | Graphic Designer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logoicon2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="scroll">
+        <div>
+            <div></div>
+        </div>
+        <p>SCROLL</p>
+    </div>
+    <div class="logo" onclick="openNav()"><img src="img/logo.png" alt=""></div>
+    <!-- NAV START -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#about-me" onclick="closeNav()">ABOUT ME</a>
+            </li>
+            <li>
+                <a href="#work" onclick="closeNav()">WORK</a>
+            </li>
+            <li>
+                <a href="#footer" onclick="closeNav()">CONTACT</a> 
+            </li>
+        </ul> 
+    </nav>
+    <!-- NAV END -->
+    <!-- PRESENTATION START -->
+    <section id="presentation">
+        <div>
+            <h1>LAIA <span>LORENTE</span></h1>
+        </div>
+        <!-- <button class="clickbtn">Click here</button>  Prueba -->
+        <div>
+            <h2>GRAPHIC DESIGNER, WEB & RRSS, UX/UI</h2> 
+        </div>
+        <div>
+            <p><a href="https://www.linkedin.com/in/laia-lorente-marco-07b0691a1/?originalSubdomain=es"
+            target="_blank"><i class="fab fa-linkedin" title="LinkedIn"></i></a></p>
+        </div>
+        <div><img src="img/cara.webp" alt="face"></div>
+        <!--<div><button><span>Download my CV</span></button></div>-->
+    </section>
+    <!-- PRESENTATION END -->
+    <!-- ABOUT ME START -->
+    <section id="about-me">
+        <div>
+            <h3>1. ABOUT ME</h3>
+            <article>
+                <div>
+                    <h4>Hi!</h4>
+                    <p>I am a superior technician in Design and Edition of Printed and Multimedia
+                    Publications.</p>
+                    <p>I am twenty-five years old and I want to develop professionally in the graphic arts sector and programming.</p>
+                    <p>I consider myself a cheerful, hard-working, responsible, curious, perfectionist and eager to
+                        learn person.</p>
+                </div>
+                <main>
+                    <div>
+                        <p>HTML5</p>
+                        <div>
+                            <div class="completed"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>CSS3</p>
+                        <div>
+                            <div class="completed"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Illustrator</p>
+                        <div>
+                            <div class="completed"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Photoshop</p>
+                        <div>
+                            <div class="completed"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>InDesign</p>
+                        <div>
+                            <div class="completed"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Adobe XD</p>
+                        <div>
+                            <div class="pre-completed"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Git</p>
+                        <div>
+                            <div class="pre-completed"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>SASS</p>
+                        <div>
+                            <div class="pre-completed"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>JS</p>
+                        <div>
+                            <div class="in-process"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Figma</p>
+                        <div>
+                            <div class="in-process"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Wordpress</p>
+                        <div>
+                            <div class="in-process"></div>
+                        </div>
+                    </div>
+                </main>
+            </article>
+            <article class="personal">
+                <div class="conjunto">
+                    <div>
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h5>SKILLS</h5>
+                    <span>I have worked at the publishing <br>
+                        house Ediciones Carena <br>
+                        as a graphic designer.
+                    </span>
+                </div>
+                <div class="conjunto">
+                    <div>
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h5>HOBBIES</h5>
+                    <span>I love music, sports, traveling, <br>
+                        fashion, cooking and <br>
+                        watching series or movies.
+                    </span>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- ABOUT ME END -->
+    <!-- WORK START -->
+    <section id="work">
+        <div>
+            <h3>2. WORK</h3>
+            <div>
+                <button onclick="filter('all')"> All</button>
+                <button onclick="filter('ill')"> Illustration</button>
+                <button onclick="filter('web')"> Web & App</button>
+                <button onclick="filter('pckg')"> Packaging</button>
+                <button onclick="filter('sm')"> Social media & editorial</button>
+            </div>
+            <article>
+                <div class="projects web">
+                    <img src="img/work/emailmark.jpg" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Email marketing campaign</h4>
+                        <p>Adobe Photoshop & Web</p>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/presentacioninsta.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Instagram profile / feed</h4>
+                        <p>Instagram & Linktree</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/postsig.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Instagram posts</h4>
+                        <p>Instagram & Creator Studio</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/storiesdiafreo.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Instagram Stories</h4>
+                        <p>Adobe Photoshop</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/orgfb.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Facebook profile</h4>
+                        <p>Facebook</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/feedfb.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Facebook feed</h4>
+                        <p>Facebook & Creator Studio</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/postsfb.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Facebook posts</h4>
+                        <p>Facebook & Creator Studio</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/pmcb.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>El perquè d'una Medalla d'Honor</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/ls.png" alt="" id="temp" onclick="bigImg(event)">
+                    <div>
+                        <h4>Los límites de la singularidad</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/ph.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Poemas huecos</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/psll.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Pasen sin llamar</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/elsalva.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>El Salva</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/pmcbPDL.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>El perquè d'una Medalla d'Honor</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/psllPDL.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Pasen sin llamar</h4>
+                        <p>Photoshop & InDesign</p> 
+                    </div>
+                </div>
+                <div class="projects web">
+                    <img src="img/work/libroscarena.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Web Ediciones Carena (Books)</h4>
+                        <p>Wordpress</p>
+                    </div>
+                </div>
+                <div class="projects web">
+                    <img src="img/work/agendacarena.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Web Ediciones Carena (Diary)</h4>
+                        <p>Wordpress</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/presentaciones.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Presentations (Twitter Feed)</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/storys.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Presentations (Instagram Stories)</h4>
+                        <p>Adobe Photoshop</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/anuncioSF.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Flyer</h4>
+                        <p>Photoshop & Illustrator</p>
+                    </div>
+                </div>
+                <div class="projects ill">
+                    <img src="img/work/medallaSF.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Sagrada Família medal</h4>
+                        <p>Adobe Illustrator</p>
+                    </div>
+                </div>
+                <div class="projects ill">
+                    <img src="img/work/shotstyle.png" alt="" onclick="bigImg(event)"> 
+                    <div>
+                        <h4>Shot Style</h4>
+                        <p>Photoshop & Unity</p>
+                    </div>
+                </div>
+                <div class="projects ill">
+                    <img src="img/work/Chica.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Girl Illustration</h4>
+                        <p>Adobe Photoshop</p>
+                    </div>
+                </div>
+                <div class="projects ill">
+                    <img src="img/work/dogneu.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Dog Illustration</h4>
+                        <p>Adobe Photoshop</p>
+                    </div>
+                </div>
+                <div class="projects ill">
+                    <img src="img/work/erizo.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>​​Urchin Illustration</h4>
+                        <p>Adobe Photoshop</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/ejcartarest.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Restaurant menu</h4>
+                        <p>Adobe InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/jpncatalogo.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Catalogue</h4>
+                        <p>Adobe InDesign</p>
+                    </div>
+                </div>
+                <!-- <div class="projects ill">
+                    <img src="img/work/logoM.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Miquel Web Developer</h4>
+                        <p>Adobe Illustrator</p>
+                    </div>
+                </div> -->
+                <!-- <div class="projects ill">
+                    <img src="img/work/logoR.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>ML Recetas</h4>
+                        <p>Adobe Illustrator</p>
+                    </div>
+                </div> -->
+                <div class="projects ill">
+                    <img src="img/work/camiseta.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Vinyl print T-shirt</h4>
+                        <p>Illustrator &  Machinery (Stamping)</p>
+                    </div>
+                </div>
+                <div class="projects pckg">
+                    <img src="img/work/tarjeta.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Business card</h4>
+                        <p>Illustrator &  Machinery (Guillotine)</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/imposiciontarjeta.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Business cards</h4>
+                        <p>Illustrator & Kodak Preps</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/mockup_banderola.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Mockup</h4>
+                        <p>Adobe Photoshop</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/maquetacion.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Catalog, flyer (Layout)</h4>
+                        <p>Adobe InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/postal.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Christmas flyer</h4>
+                        <p>Adobe Illustrator</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/anuncioLevis.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Levis ad example</h4>
+                        <p>Adobe Illustrator</p>
+                    </div>
+                </div>
+                <div class="projects web">
+                    <img src="img/work/adobexd.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>App Pura Vida</h4>
+                        <p>Adobe XD</p>
+                    </div>
+                </div>
+                <div class="projects pckg">
+                    <img src="img/work/etiqueta.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Label design (Bottle packaging)</h4>
+                        <p>Illustrator &  Machinery (Cutting)</p>
+                    </div>
+                </div>
+                <div class="projects pckg">
+                    <img src="img/work/logob.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Balach (Logo packaging)</h4>
+                        <p>Adobe Illustrator</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/revista.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Magazine design</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/revista2.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Magazine design</h4>
+                        <p>Photoshop & InDesign</p>
+                    </div>
+                </div>
+                <div class="projects web">
+                    <img src="img/work/calc.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Web calculator</h4>
+                        <p>HTML5, CSS3 & JavaScript</p>
+                    </div>
+                </div>
+                <div class="projects web">
+                    <img src="img/work/bannerM.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Banner for LinkedIn</h4>
+                        <p>Canva</p>
+                    </div>
+                </div>
+                <div class="projects pckg">
+                    <img src="img/work/mainsa.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>POS (Point of Sale) design</h4>
+                        <p>Photoshop & Illustrator</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                    <img src="img/work/rsskeshop.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Design posts & stories Keshop</h4>
+                        <p>Instagram, Photoshop & Adobe Express</p>
+                    </div>
+                </div>
+                <div class="projects web">
+                    <img src="img/work/bannerwebseb.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Banner Web Sebastian (Keshop)</h4>
+                        <p>Photoshop & Adobe Express</p>
+                    </div>
+                </div>
+                <div class="projects web">
+                    <img src="img/work/bannerwebk18.png" alt="" onclick="bigImg(event)">
+                    <div>
+                        <h4>Banner Web K18 (Keshop)</h4>
+                        <p>Photoshop & Adobe Express</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                     <video width="275" height="155" controls>
+                        <source src="img/work/mailk18.mp4" type="video/mp4">
+                    </video>
+                    <div>
+                        <h4>Email marketing (Keshop)</h4>
+                        <p>Adobe Express, BeePro & Mail Up</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                     <video width="275" height="155" controls>
+                        <source src="img/work/mailMD.mp4" type="video/mp4">
+                    </video>
+                    <div>
+                        <h4>Email marketing (Keshop)</h4>
+                        <p>Adobe Express, BeePro & Mail Up</p>
+                    </div>
+                </div>
+                <div class="projects sm">
+                     <video width="275" height="155" controls>
+                        <source src="img/work/bv.mp4" type="video/mp4">
+                    </video>
+                    <div>
+                        <h4>Baptism Project (Motion Graphics)</h4>
+                        <p>After Effects & Premiere</p>
+                    </div>
+                </div>
+                <!--<div>
+                    <button onclick=""> Show all</button>
+                </div>-->
+            </article>
+        </div>
+    </section>
+    <!-- WORK END -->
+    <!-- CONTACT START
+    <section id="contact">
+        <main>
+            <h3>3. CONTACT</h3>
+            <div>
+                <form action="php/send.php">
+                    <div>
+                        <input type="text" id="nombre" name="nombre" placeholder="Name">
+                    </div>
+                    <div>
+                        <input type="text" id="asunto" name="asunto" placeholder="Subject">
+                    </div>
+                    <div>
+                        <input type="email" id="mail" name="mail" placeholder="Mail">
+                    </div>
+                    <div>
+                        <input type="text" id="msg" name="msg" placeholder="Message">
+                    </div>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </main>
+    </section>
+     CONTACT END -->
+    <!-- FAREWELL START -->
+    <section id="farewell">
+        <h1>
+            <span>SEE</span><span>YOU</span><span>SOON</span>
+        </h1>
+    </section>
+    <!-- FAREWELL END -->
+    <!-- FOOTER START -->
+    <footer id="footer">
+        <!--<p class="symbol">✦</p>-->
+        <p>LAIA LORENTE MARCO &nbsp; © 2025</p>
+        <p>Technologies used on this website</p>
+        <div>
+            <div class="html">
+                <img src="img/Footer/html5.png" alt="" title="HTML5">
+            </div>
+            <div class="css">
+                <img src="img/Footer/css.png" alt="" title="CSS3">
+            </div>
+            <div class="sass">
+                <img src="img/Footer/sass.png" alt="" title="Sass">
+            </div>
+            <div class="js">
+                <img src="img/Footer/js.png" alt="" title="JavaScript">
+            </div>
+            <div class="code">
+                <img src="img/Footer/vsCode.png" alt="" title="VS Code">
+            </div>
+        </div>
+        <p><span>Contact:</span> &nbsp; lorentelaiamarco@gmail.com</p>
+    </footer>
+    <!-- FOOTER END -->
+    <!-- DIV START -->
+    <div id="gallery" onclick="closeGallery(event)">
+        <img src="img/work/pmcb.png" id="zoom" alt="">
+    </div>
+    <!-- DIV END -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
