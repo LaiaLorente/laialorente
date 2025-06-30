@@ -1,0 +1,120 @@
+/*--------- WORK ---------*/
+#work {
+    align-items: flex-start;
+    background: #F7f7f7;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    //width: 100%;
+
+    div {
+        max-width: 1500px;
+        width: 95%;
+
+        h3 {
+            padding: 5px;
+            height: 60px;
+
+            &::after {
+                content: "";
+                //background: linear-gradient(to right, #EADDE1, #5C415D);
+                background: #39586D;
+                display: block;
+                height: 6px;
+                width: 80px;
+            }
+        }
+
+        >div {
+            padding-bottom: 25px;
+
+            button {
+                background: #ffffff;
+                border: 0;
+                border-radius: 3px;
+                color: #222222;
+                cursor: pointer;
+                font-family: "Montserrat", sans-serif;
+                font-size: 14px;
+                padding: 13px;
+                margin-left: 5px;
+                
+                &:hover {
+                    background: #222222;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    article {
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 35px;
+        //min-height: 70vh;
+        padding: 10px;
+        
+        >div.projects {
+            background: #ffffff;
+            box-shadow: 0 0 6px 2px #ebebeb;
+            margin: 15px;
+            max-width: 276px;
+            padding: 10px;
+            transition: 0.5s;
+
+            &:hover {
+                box-shadow: 0 0 10px 2px #dadada;
+                cursor: pointer;
+                transform: scale(1.04);
+                transition: 0.5s;
+            }
+
+            >img {
+                width: 100%;
+            } 
+
+            >div {
+                flex-wrap: wrap;
+                padding-bottom: 10px;
+
+                h4 {
+                    color: #222222;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 700;
+                    font-size: 14.5px;
+                } 
+                
+                p {
+                    color: #222222;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 400;
+                    font-size: 12.5px;
+                }
+            }
+        }
+    }
+}
+
+/*-------- DIV FINAL GALERIA --------*/
+
+#gallery {
+    align-items: center;
+    background: rgba(34,34,34,.8);
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transition: .5s;
+    width: 100vw;
+}
+
+
+@media only screen and (max-width: 520px) {
+    #work>div>div>button {
+        margin-bottom: 10px; 
+    }
+}

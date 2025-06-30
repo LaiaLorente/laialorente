@@ -1,0 +1,196 @@
+/*--------- ABOUT ME ---------*/
+#about-me {
+    align-items: flex-start;
+    background: #eef0f1; //#dee1e4
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+    >div {
+        max-width: 1500px;
+        width: 95%;
+
+        h3::after {
+            content: "";
+            background: #39586D; 
+            display: block;
+            height: 6px;
+            width: 80px;
+        }
+
+        article {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            min-height: 40vh;
+            padding: 10px;
+
+            >div {
+                padding-bottom: 15px;
+                max-width: 500px;
+
+                h4 {
+                    color: #2C4156;
+                    font-family: ButlerBlack;
+                    font-size: 55px;
+                    justify-content: justify;
+                    margin: 0;
+                    margin-bottom: 40px;
+                    text-align: center;
+
+                    &:hover {
+                        color: #98A1AA;
+                        transition: .4s;
+                        cursor: pointer;
+                    }
+                }
+
+                >p {
+                    color: #222222;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 300;
+                    font-size: 17px;
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+
+            main {
+                max-width: 500px;
+                width: 100%;
+
+                >div {
+                    align-items: center;
+                    background: #98A1AA;
+                    display: flex;
+                    justify-content: center;
+                    margin: 12px 0;
+                    border-bottom-right-radius: 10px;
+                    border-top-right-radius: 10px;
+
+                    >p {
+                        color: #ffffff;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 14px;
+                        margin: 0;
+                        padding: 0 10px;
+                        text-align: center;
+                        width: 100px;
+                    }
+
+                    >div {
+                        background: #dddddd; 
+                        height: 20px;
+                        width: 100%;
+                        border-bottom-right-radius: 10px;
+                        border-top-right-radius: 10px;
+
+                        .completed {
+                            background: #39586D; 
+                            height: 20px;
+                            width: 100%;
+                            border-bottom-right-radius: 10px;
+                            border-top-right-radius: 10px;
+                        }
+
+                        .pre-completed {
+                            background: #39586D;
+                            height: 20px;
+                            width: 86%;
+                            border-bottom-right-radius: 10px;
+                            border-top-right-radius: 10px;
+                        }
+
+                        .in-process {
+                            background: #39586D;
+                            height: 20px;
+                            width: 38%;
+                            border-bottom-right-radius: 10px;
+                            border-top-right-radius: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .personal {
+            align-items: flex-start;
+            min-height: 30vh;
+            display: flex;
+            justify-content: center;
+            
+
+            .conjunto {
+                margin: 0 100px 0 100px;
+                >div {
+                    align-items: center;
+                    background: #4d4d4d;
+                    border-radius: 50%;
+                    box-shadow: 0 0 6px 2px #D2D7DB;
+                    display: flex;
+                    height: 170px;
+                    justify-content: center;
+                    padding: 0;
+                    width: 170px;
+
+                    i {
+                        color: #ffffff;
+                        font-size: 50px;
+                        transition: 0.6s;
+
+                        &:hover {
+                            cursor: pointer;
+                            transform: scale(1.1);
+                            transition: 0.6s;
+                        }
+                    }
+                }
+    
+                h5 {
+                    color: #222222;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 800;
+                    font-size: 30px;
+                    margin: 25px 0 10px 0;  
+                }
+
+                span {
+                    color: #222222;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #about-me>div {
+        width: 100%;
+    }
+
+    #about-me>div>h3 {
+        padding-left: 2.5%;
+    }
+
+    #about-me>div>article>main>div:nth-child(4)>p {
+        padding: 0 7px;
+    }
+
+    #about-me>div>article>main>div:nth-child(6)>p {
+        padding: 0 9px;
+    }
+
+    #about-me>div>article>main>div:nth-child(10)>p {
+        padding: 0 7px;
+    }
+
+    #about-me>div>.personal {
+        margin-bottom: 35px;
+
+        .conjunto {
+            padding: 20px;
+        }
+    }
+}

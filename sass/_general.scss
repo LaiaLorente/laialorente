@@ -1,0 +1,38 @@
+/*@font-face {
+    font-family: CerebriRegular;
+    src: url(../tipo/CerebriSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: CerebriMedium;
+    src: url(../tipo/CerebriSansPro-Medium.otf);
+}*/
+
+// PALETA COLORES: https://www.freepik.es/vector-premium/paleta-colores-azul-marino-nude-paleta-colores-acogedores-minimalismo-elegante-swatch-tono-sombra-moderno-hexadecimal_38071288.htm
+
+@font-face {
+    font-family: ButlerBlack;
+    src: url(../tipo/Butler_Black.otf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    ::selection { 
+        color: #F7f7f7;  
+        background: #222222; 
+    }
+}
+
+h3 {
+    color: rgb(12, 12, 12);
+    font-family: 'Heebo', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 50px 0;
+}
+

@@ -1,0 +1,80 @@
+/*nav {
+    //position absolute o flexbox
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-right: 1px solid black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    width: 83px;
+    z-index: 2;
+
+    .logo {
+        position: absolute;
+        top: 0;
+        margin-top: 55px;
+
+        img {
+            width: 35px;
+            height: 60px;
+        }
+    }
+
+    .navigation {
+        transform: rotate(-90deg);
+        //el padding se tiene que eliminar (con flexbox se puede decir como centrar y si no es suficiente ampliacr el width)
+        padding-left: 150px;
+
+        ul {
+            //flexbox en ul es inviable
+            align-items: center;
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                //estamos d conia? otro display flex
+                align-items: center;
+                display: flex;
+
+                a {
+                    color: rgb(77, 77, 77);
+                    font-family: 'Heebo', sans-serif;
+                    letter-spacing: 0.5px;
+                    margin: 0 50px;
+                    text-decoration: none;
+
+                    /*&::after {
+                        content: '';
+                        width: 0;
+                        display: block;
+                        position: absolute;
+                        height: 2px;
+                        top: 4.5em;
+                        left: 50%;
+                        transition: all 0.3s ease-out;
+                        transform: translateX(-50%);
+                        background: #20bf55;
+                        z-index: 30;
+                        box-sizing: inherit;
+                    }*/
+                /*}*/
+
+                /*&:first-child::after, &:nth-child(2)::after  {
+                    // esto al fin y al cabo es texto (el content) y tambien se pueden poner imagenes o favicons
+                    content: '·';
+                    color: #96005c;
+                    font-size: 30px;
+                    margin: 0 8px;
+                }
+            }
+        }
+    }
+}
+
+/*@media only screen and (max-width: 1100px) {
+    
+}*/

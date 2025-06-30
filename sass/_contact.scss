@@ -1,0 +1,83 @@
+/*--------- CONTACT ---------*/
+/*#contact {
+    align-items: flex-start;
+    background: #eef0f1;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+    main {
+        max-width: 1500px;
+        width: 95%;
+
+        h3::after {
+            content: "";
+            background: #39586D;
+            display: block;
+            height: 6px;
+            width: 80px;     
+        }
+
+        >div {
+            align-items: center;
+            background: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            height: 70vh;
+
+            >form {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                //max-width: 1080px;
+            
+                >div {
+                    margin: 5px;
+                    width: 100%;
+            
+                    input {
+                        background: #eeecec; 
+                        border: 0;
+                        border-bottom: 4px solid #8c8075;
+                        border-radius: 3px;
+                        box-sizing: border-box;
+                        color: #524a42;
+                        font-family: CerebriRegular;
+                        font-size: 16px;
+                        padding: 15px;
+                        width: 100%;
+                        cursor: default;
+                    }
+                    
+                    &:nth-child(1), &:nth-child(2) {
+                        //width: 48.7%;
+                        width: 49.1%;
+                    }
+                }
+
+                >input {
+                    background: #8c8075; 
+                    border: 0;
+                    border-radius: 5px;
+                    color: #ffffff;
+                    cursor: pointer;
+                    font-family: CerebriRegular;
+                    font-size: 16px;
+                    margin-top: 25px;
+                    padding: 10px 90px;
+
+                    &:hover {
+                        background: #524a42;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 703px) {
+    form>div {
+        width: 100% !important;
+    }
+}*/
